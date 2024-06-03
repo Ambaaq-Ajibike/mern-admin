@@ -1,13 +1,12 @@
 {
-  "name": "material-dashboard-react",
+  "name": "Go out filter",
   "version": "1.9.0",
-  "description": "Material Dashboard React. Coded by Creative Tim",
+  "description": "Material Dashboard React. Coded by Ambaaq",
   "private": false,
-  "main": "dist/index.js",
-  "homepage": "https://themewagon.github.io/react-dashboard-material",
+  "main": "dist/index.js", 
   "dependencies": {
     "@material-ui/core": "4.10.0",
-    "@material-ui/icons": "4.9.1",
+    "@material-ui/icons": "4.9.1"
     "chartist": "0.10.1",
     "classnames": "2.2.6",
     "firebase": "^10.12.2",
