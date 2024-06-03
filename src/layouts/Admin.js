@@ -96,7 +96,7 @@ export default function Admin({ ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Go Out Filter"}
+        logoText={"Dream Come Admin"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
