@@ -36,6 +36,7 @@ import NotificationsPage from "views/Notifications/Notifications.js";
 import UpgradeToPro from "views/UpgradeToPro/UpgradeToPro.js";
 // core components/views for RTL layout
 import RTLPage from "views/RTLPage/RTLPage.js";
+import AgentList from "views/TableList/AgentsList";
 
 const dashboardRoutes = [
   {
@@ -60,6 +61,14 @@ const dashboardRoutes = [
     rtlName: "قائمة الجدول",
     icon: "content_paste",
     component: TableList,
+    layout: "/admin"
+  },
+  {
+    path: "/agents",
+    name: "Agents",
+    rtlName: "قائمة الجدول",
+    icon: "content_paste",
+    component: AgentList,
     layout: "/admin"
   },
   {
